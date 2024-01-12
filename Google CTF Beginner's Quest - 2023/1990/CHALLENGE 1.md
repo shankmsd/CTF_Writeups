@@ -4,7 +4,11 @@ Ok, you seem to have found the flag... but have you tried writing the flag back 
 
 ## Solution 🕵️‍♂️
 
-After writing previous flag to ctl we get a [C Program](<src/C1.c>), analyzing it reveals that it writes unicode characters 0x25a0(Black Square/U+25A0) and 0x25a1(White Square/U+25A1) in a pattern to file.
+After writing previous flag to ctl we get a [C Program](<src/C1.c>)
+
+![CTL](src/C1.PNG)
+
+Analyzing it reveals that it writes unicode characters 0x25a0(Black Square/U+25A0) and 0x25a1(White Square/U+25A1) in a pattern to file.
 
 After rewriting C program in [Python](<src/C1.py>) we can see the flag in ASCII art
 
