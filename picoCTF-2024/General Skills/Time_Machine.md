@@ -1,4 +1,4 @@
-## Challenge
+## Challenge 🧩
 
 What was I last working on? I remember writing a note to help me remember...
 
@@ -11,7 +11,7 @@ Hints:
 2. Read the chapter on Git from the picoPrimer [here](https://primer.picoctf.org/#_git_version_control).
 3. When committing a file with git, a message can (and should) be included.
 
-## Solution
+## Solution 🕵️‍♂️
 
 ```bash
 ┌──(user㉿shell)-[~]
@@ -27,9 +27,9 @@ committer picoCTF <ops@picoctf.com> 1710018636 +0000
 picoCTF{t1m3m@ch1n3_xxxxxxxx}
 ```
 
-Tools Used: </br>
+Tool Used: </br>
 [GitTools Extractor](https://github.com/internetwache/GitTools/tree/master/Extractor)
 
-## Flag
+## Flag 🚩
 
 `picoCTF{t1m3m@ch1n3_xxxxxxxx}`
